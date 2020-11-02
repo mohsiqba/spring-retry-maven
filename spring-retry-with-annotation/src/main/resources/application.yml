@@ -1,0 +1,15 @@
+spring:
+  output:
+  ansi:
+    enabled: ALWAYS
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.retry: DEBUG
+    com.howtodoinjava: DEBUG
+    org.hibernate: ERROR
+    com.mohsin.spring.retry: DEBUG
+  pattern:
+    console: '%d %-5level %logger : %msg%n'
+#    file: %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
